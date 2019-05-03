@@ -1,0 +1,21 @@
+{
+    "name": "mlaxwong/paw-web-component",
+    "type": "paw-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mlax Wong",
+            "email": "mlaxwong@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "paw\\webcomponent\\": "src/"
+        }
+    },
+    "require": {
+        "mlaxwong/paw": "^1.1",
+        "mlaxwong/paw-assets-ckeditor5": "^1.0",
+        "npm-asset/pc-bootstrap4-datetimepicker": "^4.17"
+    }
+}
